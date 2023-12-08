@@ -1,0 +1,49 @@
+{
+  "name": "school-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "start-pm2": "pm2 start index.js",
+    "stop-pm2": "pm2 stop index.js",
+    "migration": "npx sequelize-cli db:migrate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ibrohimjon25/school-backend.git"
+  },
+  "engines": {
+    "node": "16.16.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ibrohimjon25/school-backend/issues"
+  },
+  "homepage": "https://github.com/Ibrohimjon25/school-backend#readme",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "cron": "^2.1.0",
+    "date-and-time": "^2.4.2",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "pm2": "^5.2.2",
+    "redis": "^4.6.5",
+    "sequelize": "^6.23.0",
+    "shelljs": "^0.8.5",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sequelize-cli": "^6.5.2"
+  }
+}

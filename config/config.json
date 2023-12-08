@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "doadmin",
+    "password": "AVNS_fc4Iv2-NxVYUWcmQMCp",
+    "database": "Test",
+    "host": "it-center-do-user-13727927-0.b.db.ondigitalocean.com",
+    "dialect": "postgres",
+    "ssl": true
+  },
+  "test": {
+    "username": "doadmin",
+    "password": "AVNS_fc4Iv2-NxVYUWcmQMCp",
+    "database": "Test",
+    "host": "it-center-do-user-13727927-0.b.db.ondigitalocean.com",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "doadmin",
+    "password": "AVNS_fc4Iv2-NxVYUWcmQMCp",
+    "database": "Test",
+    "host": "it-center-do-user-13727927-0.b.db.ondigitalocean.com",
+    "dialect": "postgres"
+  }
+}
